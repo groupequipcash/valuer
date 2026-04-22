@@ -1,102 +1,117 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Classificações TikTok</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pressel</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-<style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f2f2f2;
-    text-align: center;
-}
+    body {
+      margin: 0;
+      padding: 0;
+      background: #efefef;
+      font-family: Arial, Helvetica, sans-serif;
+    }
 
-.container {
-    max-width: 400px;
-    margin: auto;
-    padding: 20px;
-    background: #fff;
-}
+    .wrapper {
+      max-width: 430px;
+      margin: 0 auto;
+      background: #f3f3f3;
+      min-height: 100vh;
+      padding: 24px 18px 40px;
+      text-align: center;
+    }
 
-.top-img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-top: 10px;
-}
+    .top-image {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 22px;
+    }
 
-h1 {
-    font-size: 20px;
-    font-weight: normal;
-    margin: 20px 0;
-}
+    .headline {
+      font-size: 21px;
+      line-height: 1.22;
+      color: #000;
+      font-weight: 400;
+      margin: 0 auto 18px;
+      max-width: 340px;
+    }
 
-.bold {
-    font-weight: bold;
-}
+    .headline strong {
+      font-weight: 700;
+    }
 
-.sub {
-    font-size: 14px;
-    margin-bottom: 15px;
-}
+    .subtext {
+      font-size: 14px;
+      color: #000;
+      line-height: 1.25;
+      margin-bottom: 20px;
+    }
 
-.btn {
-    display: block;
-    background: #d61c7f;
-    color: #fff;
-    padding: 15px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 15px 0;
-}
+    .subtext strong {
+      font-weight: 700;
+    }
 
-.btn:hover {
-    opacity: 0.9;
-}
+    .cta-button {
+      display: block;
+      width: 100%;
+      max-width: 310px;
+      margin: 0 auto 28px;
+      background: #db1986;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 18px;
+      padding: 18px 18px;
+      border-radius: 999px;
+      box-shadow: inset 0 0 0 2px #9a0f5a;
+    }
 
-.prova {
-    width: 100%;
-    border-radius: 15px;
-    margin-top: 10px;
-}
-</style>
+    .proof-image {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 18px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .google-g1 { color: #4285F4; }
+    .google-o1 { color: #EA4335; }
+    .google-o2 { color: #FBBC05; }
+    .google-g2 { color: #4285F4; }
+    .google-l  { color: #34A853; }
+    .google-e  { color: #EA4335; }
+  </style>
 </head>
-
 <body>
+  <div class="wrapper">
 
-<div class="container">
+    <!-- TROQUE AQUI PELO CAMINHO REAL DA FOTO 1 -->
+    <img src="imagem-topo.jpg" alt="Foto topo" class="top-image" />
 
-<!-- IMAGEM TOPO -->
-<img src="SUA-IMAGEM-1.jpg" class="top-img">
+    <div class="headline">
+      Faça <strong>classificações</strong> no
+      <span class="google-g1">G</span><span class="google-o1">o</span><span class="google-o2">o</span><span class="google-g2">g</span><span class="google-l">l</span><span class="google-e">e</span>
+      Maps e saque de <strong>500 a $ 1k dia...</strong>
+    </div>
 
-<!-- COPY -->
-<h1>
-Faça <span class="bold">classificações</span> no 
-<span style="color:#4285F4;">G</span>
-<span style="color:#EA4335;">o</span>
-<span style="color:#FBBC05;">o</span>
-<span style="color:#4285F4;">g</span>
-<span style="color:#34A853;">l</span>
-<span style="color:#EA4335;">e</span>
-Maps e saque de <span class="bold">500 a $ 1k dia...</span>
-</h1>
+    <div class="subtext">
+      Grupo 100% Grátis<br />
+      <strong>(Toque abaixo e Entre)</strong>
+    </div>
 
-<div class="sub">
-Grupo 100% Grátis<br>
-<strong>(Toque abaixo e Entre)</strong>
-</div>
+    <!-- TROQUE AQUI PELO LINK DO GRUPO -->
+    <a href="https://SEU-LINK-AQUI.com" class="cta-button">ENTRAR AGORA MESMO ➜</a>
 
-<!-- BOTÃO -->
-<a href="#" class="btn">ENTRAR AGORA MESMO ➜</a>
+    <!-- TROQUE AQUI PELO CAMINHO REAL DA FOTO 2 -->
+    <img src="depoimento.jpg" alt="Depoimento" class="proof-image" />
 
-<!-- PROVA -->
-<img src="SUA-IMAGEM-2.jpg" class="prova">
-
-</div>
-
+  </div>
 </body>
 </html>
