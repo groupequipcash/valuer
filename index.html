@@ -3,91 +3,55 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Plataforma Digital</title>
+<title>Acesso</title>
 
 <style>
-body {
+* {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f2f2f2;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  background: linear-gradient(135deg, #f5f5f5, #eaeaea);
+  font-family: Arial, sans-serif;
 }
 
-.card {
-  background: #ffffff;
-  padding: 30px 20px;
-  border-radius: 20px;
-  max-width: 360px;
-  width: 90%;
-  text-align: center;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-}
-
-.badge {
-  display: inline-block;
-  background: #eef7f6;
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 13px;
-  margin-bottom: 20px;
-}
-
-.logo {
-  font-size: 40px;
-  margin-bottom: 15px;
-}
-
-h1 {
-  font-size: 22px;
-  margin: 10px 0;
-}
-
-.sub {
-  font-size: 14px;
-  color: #555;
-  margin-bottom: 25px;
-}
-
+/* BOTÃO */
 .btn {
-  display: block;
-  background: #111;
-  color: #fff;
-  padding: 15px;
-  border-radius: 30px;
-  text-decoration: none;
+  padding: 18px 45px;
+  font-size: 18px;
   font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #ff2e5f, #2b0b13);
+  box-shadow: 0 10px 25px rgba(255, 46, 95, 0.3);
+  transition: all 0.3s ease;
 }
 
+/* EFEITO HOVER */
 .btn:hover {
-  opacity: 0.9;
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 15px 35px rgba(255, 46, 95, 0.5);
+}
+
+/* EFEITO CLICK */
+.btn:active {
+  transform: scale(0.98);
 }
 </style>
 </head>
 
 <body>
 
-<div class="card">
-
-<div class="badge">Acesso informativo</div>
-
-<div class="logo">🛍️</div>
-
-<h1>
-Plataforma digital de avaliações de produtos
-</h1>
-
-<div class="sub">
-Grupo gratuito com explicações passo a passo sobre como funciona o processo dentro das plataformas.
-</div>
-
 <a href="https://t.me/+PuyXIveEivY4NjQ5" class="btn">
-ENTRAR NO GRUPO
+Entrar agora mesmo
 </a>
-
-</div>
 
 </body>
 </html>
